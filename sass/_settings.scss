@@ -3,13 +3,14 @@
 // yourself. This means that changes that should be small, such as tweaking the
 // coloring or the sizing, can be done in one place, not all over the stylesheet.
 
-$base-font: sans-serif;
+$base-font: "Gill Sans", Arial;
 $header-font: $base-font; // you can refer to other variables
 
 // base color scheme
 $body-background: #fff;
 $text-color: #404040;
-$link-color: royalblue;
+$heading-text-color: #747474;
+$link-color:  #747474;;
 $link-visited: purple;
 
 // Supported Values for $layout:
