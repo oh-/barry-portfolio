@@ -228,10 +228,7 @@ function my_rewrite_flush() {
 }
 add_action( 'after_switch_theme', 'my_rewrite_flush' );
 */
-function my_rewrite_flush() {
-    flush_rewrite_rules();
-}
-add_action( 'after_switch_theme', 'my_rewrite_flush' );
+
 
 /**
 part 2

@@ -77,21 +77,43 @@ get_header(); ?>
 						printf( '<div class="taxonomy-description">%s</div>', $term_description );
 					endif;
 				?>
-			</header><!-- .page-header -->
-			<?php
-			$args = array(
-			  'orderby' => 'name',
-			  'order' => 'ASC',
-			  'taxonomy' => 'years'
-			  );
-			$categories = get_categories($args);
-			  foreach($categories as $category) { 
-			    echo '<p>Category: <a href="' . get_category_link( $category->term_id ) . '" title="' . sprintf( __( "View all posts in %s" ), $category->name ) . '" ' . '>' . $category->name.'</a> </p> ';
-			    echo '<p> Description:'. $category->description . '</p>';
-			    echo '<p> Post Count: '. $category->count . '</p>';  } 
-			?>
-				
+			</header><!-- /.page-header -->
+			<section>
+			 <?php foreach (get_terms('years') as $cat) : ?>
+			 <div class="work-cat-img">
+			<a href="<?php echo get_term_link($cat->slug, 'years'); ?>">
+				<img src="<?php echo z_taxonomy_image_url($cat->term_id, index); ?>" />
+				<?php echo $cat->name; ?>
+		 	</a>
+			 </div><!-- /.work-cat-img -->
+			 <?php endforeach; ?>
+			</section>
 			
+			
+			<?php 
+			
+			//list terms in a given taxonomy using wp_list_categories (also useful as a widget if using a PHP Code plugin)
+
+			$taxonomy     = 'years';
+			$orderby      = 'name'; 
+			$show_count   = 0;      // 1 for yes, 0 for no
+			$pad_counts   = 0;      // 1 for yes, 0 for no
+			$hierarchical = 1;      // 1 for yes, 0 for no
+			$title        = '';
+
+			$args = array(
+			  'taxonomy'     => $taxonomy,
+			  'orderby'      => $orderby,
+			  'show_count'   => $show_count,
+			  'pad_counts'   => $pad_counts,
+			  'hierarchical' => $hierarchical,
+			  'title_li'     => $title
+			);
+			?>
+
+			<ul>
+			<?php wp_list_categories( $args ); ?>
+			</ul>
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 				
