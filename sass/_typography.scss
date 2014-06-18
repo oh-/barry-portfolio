@@ -150,12 +150,19 @@ img {
 /* Links */
 a {
 	color: $link-color;
+	text-decoration: none;
 	@include hoverActiveFocus {
 		color: darken($link-color, 30%);
 	}
 }
 a:visited {
+	text-decoration: none;
 	color: $link-visited;
+}
+a:hover,
+a:focus,
+a:active {
+	text-decoration: none;
 }
 
 .current-menu-item a {

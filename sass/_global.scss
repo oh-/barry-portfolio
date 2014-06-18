@@ -108,10 +108,11 @@
 		float: left;
 	}
 
-	body.archive.category article.post{
+	body.archive article.work {
 		/*index style articles on category archive pages
 		display table - for horizontal and vertical centering*/
 		display: table;
+		float: left;
 	    height: 200px;
 	    max-width: 200px;
 	    min-width: 180px;
