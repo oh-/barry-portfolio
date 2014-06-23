@@ -8,7 +8,7 @@
 get_header(); ?>
 	<aside id="secondary">
 		<?php
-			get_sidebar('worksbyyear');
+			get_sidebar('blank');
 		?>
 	</aside>
 	<section id="primary" class="content-area">
@@ -16,7 +16,7 @@ get_header(); ?>
 
 		<?php while ( have_posts() ) : the_post(); ?>
 
-			<?php get_template_part( 'content', 'work' ); ?>
+			<?php get_template_part( 'content', 'single' ); ?>
 
 			<?php barry_portfolio_post_nav(); ?>
 
@@ -26,8 +26,7 @@ get_header(); ?>
 					comments_template();
 				endif;
 			?>
-			<?php the_meta(); ?> 
-			<?php edit_post_link('edit', '<p>', '</p>'); ?>
+
 		<?php endwhile; // end of the loop. ?>
 
 		</main><!-- #main -->

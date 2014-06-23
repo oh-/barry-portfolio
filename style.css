@@ -276,54 +276,26 @@ article.post {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_global\.scss}line{font-family:\00003111}}
-body.archive article.work {
-  /*index style articles on category archive pages
-  display table - for horizontal and vertical centering*/
-  display: table;
-  float: left;
-  height: 200px;
-  width: 200px;
-  padding: 20px 0 0 20px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_global\.scss}line{font-family:\00003121}}
 body.page article, body.single-post article {
   /*full page post content article tag*/
   width: 720px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_global\.scss}line{font-family:\00003126}}
-body.archive.category article.post div.entry-content {
-  /*display table-cell - for horizontal and vertical centering*/
-  height: 200px;
-  width: 200px;
-  display: table-cell;
-  vertical-align: middle;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_global\.scss}line{font-family:\00003133}}
-body.archive.category article.post div.entry-content a {
-  display: block;
-  width: 100%;
-  text-align: center;
-  line-height: 0;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_global\.scss}line{font-family:\00003139}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_global\.scss}line{font-family:\00003116}}
 div#full-post-meta {
   position: absolute;
   width: 220px;
   left: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_global\.scss}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_global\.scss}line{font-family:\00003121}}
 div#full-post-meta p {
   text-align: right;
   width: 220px;
 }
 
 /* Sidebars */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_global\.scss}line{font-family:\00003151}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_global\.scss}line{font-family:\00003128}}
 #secondary {
   float: left;
   width: 220px;
@@ -331,14 +303,14 @@ div#full-post-meta p {
 }
 
 /* Footer */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_global\.scss}line{font-family:\00003158}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_global\.scss}line{font-family:\00003135}}
 footer.site-footer {
   margin: 20px;
   padding: 10px 0px;
   border-top: 1px solid #D6D6D6;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_global\.scss}line{font-family:\00003163}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_global\.scss}line{font-family:\00003140}}
 footer .site-info {
   margin: 10px auto auto 220px;
 }
@@ -373,29 +345,38 @@ header .current-menu-item a {
   padding: 0 5px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000330}}
+li.current-cat a {
+  border-radius: 3px;
+  margin-left: -5px;
+  margin-bottom: 5px;
+  background-color: #E7E7E7;
+  padding: 0 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000338}}
 h1, h2, h3, h4, h5, h6 {
   font-family: "Gill Sans", Arial;
   color: #747474;
   clear: both;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000343}}
 h1 {
   font-size: 2.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000346}}
 h2 {
   font-size: 2em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000349}}
 h3 {
   font-size: 1.2em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000353}}
 hr {
   background-color: #ccc;
   border: 0;
@@ -404,7 +385,7 @@ hr {
 }
 
 /* Text elements */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000361}}
 p {
   margin-bottom: 1.5em;
   font-size: 0.8em;
@@ -412,59 +393,59 @@ p {
   color: #A8A9A9;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000367}}
 ul, ol {
   margin: 0 0 1.5em 3em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000370}}
 ul {
   list-style: disc;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000373}}
 ol {
   list-style: decimal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000377}}
 li > ul,
 li > ol {
   margin-bottom: 0;
   margin-left: 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000381}}
 dt {
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000384}}
 dd {
   margin: 0 1.5em 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000387}}
 b, strong {
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000390}}
 dfn, cite, em, i {
   font-style: italic;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000393}}
 blockquote {
   margin: 0 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000396}}
 address {
   margin: 0 0 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000399}}
 pre {
   background: #eee;
   font-family: "Courier 10 Pitch", Courier, monospace;
@@ -477,24 +458,24 @@ pre {
   max-width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003110}}
 code, kbd, tt, var {
   font: 15px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003107}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003113}}
 abbr, acronym {
   border-bottom: 1px dotted #666;
   cursor: help;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003117}}
 mark, ins {
   background: #fff9c0;
   text-decoration: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003122}}
 sup,
 sub {
   font-size: 75%;
@@ -504,43 +485,43 @@ sub {
   vertical-align: baseline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003129}}
 sup {
   bottom: 1ex;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003126}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003132}}
 sub {
   top: .5ex;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003129}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003135}}
 small {
   font-size: 75%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003132}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003138}}
 big {
   font-size: 125%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003141}}
 figure {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003138}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003144}}
 table {
   margin: 0 0 1.5em;
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003142}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003148}}
 th {
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003145}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003151}}
 img {
   height: auto;
   /* Make sure images are scaled correctly. */
@@ -549,7 +530,7 @@ img {
 }
 
 /* Links */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003151}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003157}}
 a {
   color: #747474;
   text-decoration: none;
@@ -559,37 +540,27 @@ a:hover, a:active, a:focus {
   color: #282828;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003158}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003164}}
 a:visited {
   text-decoration: none;
   color: #747474;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003164}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003170}}
 a:hover,
 a:focus,
 a:active {
   text-decoration: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003168}}
-.current-menu-item a {
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  margin-bottom: 5px;
-  background-color: #E7E7E7;
-  padding: 0 5px;
-}
-
 /*  footer fonts  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003178}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003175}}
 footer .site-info {
   font: 9.8px courier;
   color: #D6D6D6;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003185}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003182}}
 footer .site-info a:link,
 footer .site-info a:visited,
 footer .site-info a:hover,
@@ -806,11 +777,6 @@ nav#site-navigation {
 
 /* =Content
 ----------------------------------------------- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_content\.scss}line{font-family:\000036}}
-.hentry {
-  margin: 0 0 1.5em;
-}
-
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_content\.scss}line{font-family:\0000310}}
 .byline,
 .updated {
@@ -839,8 +805,19 @@ nav#site-navigation {
 .work-cat-img {
   width: 200px;
   height: 200px;
-  float: left;
   margin: 10px 20px;
+  float: left;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_content\.scss}line{font-family:\0000335}}
+.work-cat-img img {
+  vertical-align: middle;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_content\.scss}line{font-family:\0000338}}
+.work-cat-img a {
+  line-height: 200px;
 }
 
 /* =Asides

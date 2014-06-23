@@ -3,9 +3,9 @@
 
 .sticky {
 }
-.hentry {
-	margin: 0 0 $vspacing;
-}
+//.hentry {
+//	margin: 0 0 $vspacing;
+//}
 .byline,
 .updated {
 	display: none;
@@ -28,6 +28,13 @@
 .work-cat-img {
 	width: $indexgrid;
 	height: $indexgrid;
-	float: left;
 	margin: 10px 20px;
+	float: left;
+	text-align: center;
+}
+.work-cat-img img {
+	vertical-align: middle;
+}
+.work-cat-img a {
+	line-height: 200px;
 }

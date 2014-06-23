@@ -13,7 +13,7 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
 			<?php
-			 printf( __( 'Copyright &copy; Barry Thompson %1$s . Theme: %2$s by %3$s.', 'barry-portfolio' ), '2014' ,  'Portfolio', '<a href="http://oh-dh.tumblr.com" rel="designer">oh DesignHouse</a>' );
+			 printf( __( 'Copyright &copy; Barry Thompson %1$s . Theme: %2$s by %3$s.', 'barry-portfolio' ), '2014' ,  'Portfolio', '<a href="http://made-so.tumblr.com" rel="designer">madeso</a>' );
 			 ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->

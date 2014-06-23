@@ -27,7 +27,13 @@ header .current-menu-item a {
 	background-color: #E7E7E7;
 	padding: 0 5px;
 }
-
+li.current-cat a {
+	border-radius: 3px;
+	margin-left: -5px;
+	margin-bottom: 5px;
+	background-color: #E7E7E7;
+	padding: 0 5px;
+}
 
 h1,h2,h3,h4,h5,h6 {
 	font-family: $header-font;
@@ -163,15 +169,6 @@ a:hover,
 a:focus,
 a:active {
 	text-decoration: none;
-}
-
-.current-menu-item a {
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-	margin-bottom: 5px;
-	background-color: #E7E7E7;
-	padding: 0 5px;
 }
 
 /*  footer fonts  */

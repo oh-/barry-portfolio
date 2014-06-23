@@ -78,37 +78,17 @@ get_header(); ?>
 					endif;
 				?>
 			</header><!-- /.page-header -->
-			<section>
+			<section class="work-cat-table">
 			 <?php foreach (get_terms('years') as $cat) : ?>
 			 <div class="work-cat-img">
 			<a href="<?php echo get_term_link($cat->slug, 'years'); ?>">
-				<img src="<?php echo z_taxonomy_image_url($cat->term_id, index); ?>" />
-				<?php echo $cat->name; ?>
+				<img src="<?php echo z_taxonomy_image_url($cat->term_id, index); ?>" title="<?php echo $cat->name; ?>" />
 		 	</a>
 			 </div><!-- /.work-cat-img -->
 			 <?php endforeach; ?>
-
-			
-			
-
+		 </section> <!-- /.work-cat-table -->
 			<?php /* Start the Loop */ ?>
-			<?php while ( have_posts() ) : the_post(); ?>
-				
-				<?php
-					/* Include the Post-Format-specific template for the content.
-					 * If you want to override this in a child theme, then include a file
-					 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-					 */
-					get_template_part( 'content', 'work' );
-				?>
 
-			<?php endwhile; ?>
-
-			<?php barry_portfolio_paging_nav(); ?>
-
-		<?php else : ?>
-
-			<?php get_template_part( 'content', 'none' ); ?>
 
 		<?php endif; ?>
 

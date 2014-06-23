@@ -108,34 +108,11 @@
 		float: left;
 	}
 
-	body.archive article.work {
-		/*index style articles on category archive pages
-		display table - for horizontal and vertical centering*/
-		display: table;
-		float: left;
-	    height: $indexgrid;
-	    width: $indexgrid;
-		padding: 20px 0 0 20px;
-	}
-
 	body.page article, body.single-post article {
 		/*full page post content article tag*/
 		width: 720px;
 	}
 
-	body.archive.category article.post div.entry-content {
-		/*display table-cell - for horizontal and vertical centering*/
-	    height: $indexgrid;
-	    width: $indexgrid;
-		display: table-cell;
-	    vertical-align: middle;
-	}
-	body.archive.category article.post div.entry-content a {
-	    display:block;
-	    width:100%;
-		text-align: center;
-		line-height: 0;
-	}
 	div#full-post-meta {
 		position: absolute;
 		width: 220px;
