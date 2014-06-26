@@ -13,7 +13,15 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
 			<?php
-			 printf( __( 'Copyright &copy; Barry Thompson %1$s . Theme: %2$s by %3$s.', 'barry-portfolio' ), '2014' ,  'Portfolio', '<a href="http://made-so.tumblr.com" rel="designer">madeso</a>' );
+			 $sitename = get_bloginfo(name);
+			 $siteurl = home_url();
+			 $sitelink = "<a href='".$siteurl."' title='".$sitename."'>".$sitename."</a>";
+			 $sitedate = the_date('Y', '', '', FALSE);
+			 $authlink = "<a href='http://made-so.tumblr.com' rel='designer'>madeso</a>";
+			 $format = 'Copyright &copy; %1$s, %2$d. All rights reserved. Site: %3$s';
+			 printf($format , $sitelink, $sitedate, $authlink);
+			 echo "<br />". the_date('Y', '', '', FALSE);
+			 
 			 ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
