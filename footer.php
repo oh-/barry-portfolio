@@ -16,12 +16,10 @@
 			 $sitename = get_bloginfo(name);
 			 $siteurl = home_url();
 			 $sitelink = "<a href='".$siteurl."' title='".$sitename."'>".$sitename."</a>";
-			 $sitedate = the_date('Y', '', '', FALSE);
+			 $sitedate = date("Y");
 			 $authlink = "<a href='http://made-so.tumblr.com' rel='designer'>madeso</a>";
 			 $format = 'Copyright &copy; %1$s, %2$d. All rights reserved. Site: %3$s';
 			 printf($format , $sitelink, $sitedate, $authlink);
-			 echo "<br />". the_date('Y', '', '', FALSE);
-			 
 			 ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
