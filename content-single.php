@@ -23,8 +23,7 @@
 				$dimension_y = get_post_meta( get_the_ID(), 'dimension_y', true);
 				printf( __('Mediums: %3$s <br/>%1$d mm x %2$d mm', 'barry-portfolio'), $dimension_x, $dimension_y, $work_medium); ?>
 		</p>
- 		<?php
- 			wp_link_pages( array(
+ 		<?php wp_link_pages( array(
  				'before' => '<div class="page-links">' . __( 'Pages:', 'barry-portfolio' ),
  				'after'  => '</div>',
  			) );
@@ -43,6 +42,12 @@
 	  	echo '<img src="' . get_bloginfo( 'stylesheet_directory' ) . '/images/thumbnail-default.jpg" />';
 	  }
 	  ?>
+	  <div class="other-images">
+		  <?php $other_works = get_post_meta( get_the_ID(), 'work_attached_media', true);
+		  	echo $other_works;
+		    $gallery_shortcode = '[gallery id="' . $other_works . '"]';
+		       print apply_filters( 'the_content', $gallery_shortcode );
+		   ?>
 
 	
 	
