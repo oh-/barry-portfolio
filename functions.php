@@ -296,3 +296,10 @@ function save_details(){
   update_post_meta($post->ID, "work_medium", $_POST["work_medium"]);
   update_post_meta($post->ID, "year_completed", $_POST["year_completed"]);
 }
+/**
+Gallery features function. Made global, so that I can move to seperate plugin
+*/
+function get_cuurent_post_meta($key){
+	global $post;
+	return get_post_meta($post->ID,$key,true);
+};

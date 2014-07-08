@@ -14,7 +14,6 @@
 		  /**
 		  the meta
 		  */
-	
 		?>
 		<p><?php
 				$work_medium = get_post_meta( get_the_ID(), 'work_medium', true);
@@ -42,14 +41,13 @@
 	  	echo '<img src="' . get_bloginfo( 'stylesheet_directory' ) . '/images/thumbnail-default.jpg" />';
 	  }
 	  ?>
-	  <div class="other-images">
-		  <?php $other_works = get_post_meta( get_the_ID(), 'work_attached_media', true);
-		  	echo $other_works;
-		    $gallery_shortcode = '[gallery id="' . $other_works . '"]';
-		       print apply_filters( 'the_content', $gallery_shortcode );
-		   ?>
-
-	
+	<div class="other-images">
+		<?php 
+		$imgs = get_cuurent_post_meta('work_attached_media');
+		$gallery_shortcode = '[gallery include="' . $imgs . '"]';
+		    print apply_filters( 'the_content', $gallery_shortcode );
+		?>
+	</div>
 	
 
 	<footer class="entry-footer">
