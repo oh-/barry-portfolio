@@ -1,0 +1,40 @@
+/* =Content
+----------------------------------------------- */
+
+.sticky {
+}
+//.hentry {
+//	margin: 0 0 $vspacing;
+//}
+.byline,
+.updated {
+	display: none;
+}
+.single, .group-blog {
+	.byline {
+		display: inline;
+	}
+}
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: $vspacing 0 0;
+}
+.page-links {
+	clear: both;
+	margin: 0 0 $vspacing;
+}
+
+.work-cat-img {
+	width: $indexgrid;
+	height: $indexgrid;
+	margin: 10px 20px;
+	float: left;
+	text-align: center;
+}
+.work-cat-img img {
+	vertical-align: middle;
+}
+.work-cat-img a {
+	line-height: 200px;
+}
