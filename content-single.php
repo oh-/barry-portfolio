@@ -14,15 +14,6 @@
 			  the meta
 			  */
 			?>
-			<p>
-				<?php
-					$work_title = get_the_title( get_the_ID());
-					$work_medium = get_post_meta( get_the_ID(), 'work_medium', true);
-					$year_completed = get_post_meta( get_the_ID(), 'year_completed', true);
-					$dimension_x = get_post_meta( get_the_ID(), 'dimension_x', true);
-					$dimension_y = get_post_meta( get_the_ID(), 'dimension_y', true);
-					printf( __('Mediums: %3$s <br/>%1$d mm x %2$d mm', 'barry-portfolio'), $dimension_x, $dimension_y, $work_medium); ?>
-			</p>
 	 		<?php wp_link_pages( array(
 	 				'before' => '<div class="page-links">' . __( 'Pages:', 'barry-portfolio' ),
 	 				'after'  => '</div>',
