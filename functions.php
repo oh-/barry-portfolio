@@ -47,7 +47,8 @@ function barry_portfolio_setup() {
 	
 	if ( function_exists( 'add_image_size' ) ) { 
 		add_image_size( 'index', 180, 180, false ); 
-		add_image_size( 'frontpage', 450, 450, false ); 
+		add_image_size( 'frontpage', 450, 450, false );
+		add_image_size('work_page', 700, 760, false);
 	}
 	
 
@@ -276,11 +277,14 @@ function work_details() {
   $custom = get_post_custom($post->ID);
   $dimension_x = $custom["dimension_x"][0];
   $dimension_y = $custom["dimension_y"][0];
+  $pdimension_x = $custom["pdimension_x"][0];
+  $pdimension_y = $custom["pdimension_y"][0];
   $work_medium = $custom["work_medium"][0];
   $year_completed = $custom["year_completed"][0];
   ?> 
   <p><label>Year:</label> <textarea cols="5" rows="1" name="year_completed"><?php echo $year_completed; ?></textarea></p>
-  <p><label>Dimensions in mm: (leangth x height )</label><textarea cols="3" rows="1" name="dimension_x"><?php echo $dimension_x; ?></textarea> x <textarea cols="3" rows="1" name="dimension_y"><?php echo $dimension_y; ?></textarea><br /></p>
+  <p><label>Dimensions of work in mm: (leangth x height )</label><textarea cols="3" rows="1" name="dimension_x"><?php echo $dimension_x; ?></textarea> x <textarea cols="3" rows="1" name="dimension_y"><?php echo $dimension_y; ?></textarea><br /></p>
+  <p><label>Dimensions of paper in mm: (leangth x height )</label><textarea cols="3" rows="1" name="pdimension_x"><?php echo $pdimension_x; ?></textarea> x <textarea cols="3" rows="1" name="pdimension_y"><?php echo $pdimension_y; ?></textarea><br /></p>
   <p><label>Mediums: </label><textarea cols="30" rows="5" name="work_medium"><?php echo $work_medium; ?></textarea></p>
   <?php
 }
@@ -293,13 +297,8 @@ function save_details(){
   update_post_meta($post->ID, "work_attached_media", $_POST["work_attached_media"]);
   update_post_meta($post->ID, "dimension_x", $_POST["dimension_x"]);
   update_post_meta($post->ID, "dimension_y", $_POST["dimension_y"]);
+  update_post_meta($post->ID, "pdimension_x", $_POST["pdimension_x"]);
+  update_post_meta($post->ID, "pdimension_y", $_POST["pdimension_y"]);
   update_post_meta($post->ID, "work_medium", $_POST["work_medium"]);
   update_post_meta($post->ID, "year_completed", $_POST["year_completed"]);
 }
-/**
-Gallery features function. Made global, so that I can move to seperate plugin
-*/
-function get_cuurent_post_meta($key){
-	global $post;
-	return get_post_meta($post->ID,$key,true);
-};
