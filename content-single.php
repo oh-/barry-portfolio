@@ -43,21 +43,26 @@
 	<?php else : ?>
 	<div class="entry-content">
 		<span><!--getting single  -->
-<?php $attachments = new Attachments( 'barry_attached_media' ); ?>
+<?php $attachments = new Attachments( 'work_attachments' ); ?>
 <?php if( $attachments->exist() ) : ?>
-  <?php $my_index = 0; ?>
+  <?php $my_index = 0;
+  		$my2index = 1;?>
   <?php if( $attachment = $attachments->get_single( $my_index ) ) : ?>
-       <?php echo $attachments->image( 'page', $my_index ); ?><br />
+       <a class="fancybox" rel="gallery1" title="Gallery 1 - 1" href="<?php echo $attachments->src( 'page', $my_index ); ?>">	
+		   <?php echo $attachments->image( 'page', $my_index ); ?></a><br />
+		   <br />
+	   <div class="hidden">
+        <a class="fancybox" rel="gallery1" title="Gallery 1 - 2" href="<?php echo $attachments->src( 'page', $my_index ); ?>">
+ 		   <?php echo $attachments->image( 'page', $my2index ); ?></a>
+	   </div>
   <?php endif; ?>
 <?php endif; ?>
 <!--end attachments html and php --></span>
-		<a href="<?php the_permalink(); ?>" rel="bookmark"><?php // check if the post has a Post Thumbnail assigned to it.
+		<?php // check if the post has a Post Thumbnail assigned to it.
 			if ( has_post_thumbnail() ) {
 				// the_post_thumbnail('index');
 			}
-			else
-				 the_title( '<h3>', '</h3>' );
-		endif; ?></a>
+		endif; ?>
 		<?php
 			wp_link_pages( array(
 				'before' => '<div class="page-links">' . __( 'Pages:', 'barry-portfolio' ),
