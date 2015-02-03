@@ -52,7 +52,7 @@
 		   <?php echo $attachments->image( 'page', $my_index ); ?></a><br />
 		   <br />
 	   <div class="hidden">
-        <a class="fancybox" rel="gallery1" title="Gallery 1 - 2" href="<?php echo $attachments->src( 'page', $my_index ); ?>">
+        <a class="fancybox" rel="gallery1" title="Gallery 1 - 2" href="<?php echo $attachments->src( 'page', $my2index ); ?>">
  		   <?php echo $attachments->image( 'page', $my2index ); ?></a>
 	   </div>
   <?php endif; ?>
