@@ -1,0 +1,145 @@
+/* =Global
+----------------------------------------------- */
+.hidden {
+    display: none;
+}
+/* Alignment */
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: $vspacing;
+}
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: $vspacing;
+}
+.aligncenter {
+	clear: both;
+	display: block;
+	margin: 0 auto;
+}
+
+/* Text meant only for screen readers */
+.screen-reader-text {
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+}
+
+.screen-reader-text:hover,
+.screen-reader-text:active,
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar */
+}
+
+/* Clearing */
+.clear,
+.entry-content,
+.comment-content,
+.site-header,
+.site-content,
+.site-footer {
+	@extend %clearfix;
+}
+
+
+/* = from oldstyle
+----------------------------------------------- */
+/**
+13.0 Layout - Mobile / desktop
+*/
+
+/* Page Elements */
+
+	#page {
+		width: 960px;
+	}
+	#containers {
+		width: 100%;
+		background-color: gold;
+	}
+	section#primary {
+		min-width: 480px;
+		max-width: 720px;
+		width: 80%;
+		float: right;
+	}
+/* Header */
+
+	header#masthead {
+		height: 150px;
+		padding: 20px 0 0 20px;
+	}
+	header nav .menu {
+		padding-top: 4.3em;
+	}
+	.site-branding {
+		width: 200px;
+		float: left;
+	}
+/* Site navigation */
+	nav#site-navigation {
+		min-width: 480px;
+		max-width: 720px;
+		width: 80%;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	nav.post-navigation{
+		clear: both;
+	}
+/* Posts */
+
+	article.post {
+		float: left;
+	}
+
+	body.page article, body.single-post article {
+		/*full page post content article tag*/
+		width: 720px;
+	}
+
+	body.single header.entry-header {
+		position: absolute;
+		width: 220px;
+		left: 0;
+	}
+	h3.entry-title, div#full-post-meta p {
+		text-align: right;
+		width: 220px;
+
+	}
+/* Sidebars */
+
+	#secondary  {
+		float: left;
+		width: 220px;
+		padding: 20px 0 0 20px;
+	}
+
+	/* Footer */
+	footer.site-footer {
+		margin: 20px;
+		padding: 10px 0px;
+		border-top: 1px solid #D6D6D6;
+	}
+	footer .site-info {
+		margin: 10px auto auto 220px;
+	}
+
