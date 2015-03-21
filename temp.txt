@@ -1,0 +1,36 @@
+<!--begin attachments html and php -->
+			<?php $attachments = new Attachments( 'barry_attached_media' ); /* pass the instance name */ ?>
+			<?php if( $attachments->exist() ) : ?>
+			  <h3>Attachments</h3>
+			  <ul>
+			    <?php while( $attachment = $attachments->get() ) : ?>
+			      <li>
+			        <pre><?php print_r( $attachment ); ?></pre>
+			      </li>
+			    <?php endwhile; ?>
+			  </ul>
+			<?php endif; ?>
+<!--end attachments html and php -->
+
+
+<!--begin attachments html and php -->
+<?php $attachments = new Attachments( 'attachments' ); /* pass the instance name */ ?>
+<?php if( $attachments->exist() ) : ?>
+  <h3>Attachments</h3>
+  <ul>
+    <?php while( $attachments->get() ) : ?>
+      <li>
+        ID: <?php echo $attachments->id(); ?><br />
+        Type: <?php echo $attachments->type(); ?><br />
+        Subtype: <?php echo $attachments->subtype(); ?><br />
+        URL: <?php echo $attachments->url(); ?><br />
+        Image: <?php echo $attachments->image( 'thumbnail' ); ?><br />
+        Source: <?php echo $attachments->src( 'full' ); ?><br />
+        Size: <?php echo $attachments->filesize(); ?><br />
+        Title Field: <?php echo $attachments->field( 'title' ); ?><br />
+        Caption Field: <?php echo $attachments->field( 'caption' ); ?>
+      </li>
+    <?php endwhile; ?>
+  </ul>
+<?php endif; ?>
+<!--end attachments html and php -->
