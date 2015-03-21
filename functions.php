@@ -310,3 +310,6 @@ function get_cuurent_post_meta($key){
 	global $post;
 	return get_post_meta($post->ID,$key,true);
 };
+
+// remove jetpack open graph tags
+remove_action('wp_head','jetpack_og_tags');
