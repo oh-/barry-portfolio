@@ -6,15 +6,29 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<h3 class="entry-title"><?php the_title(); ?></h3>
 	 	<div id="full-post-meta">
-	 		<?php the_content(); ?>
+			<p class="entry-title"><?php the_title(); ?></p>
+	 		<p><?php 
+			global $post;
+			$custom = get_post_custom();
+			$mediums = $custom['work_medium'][0];
+			$dimx = $custom['dimension_x'][0];
+			$dimy = $custom['dimension_y'][0];
+			$pdimx = $custom['pdimension_x'][0];
+			$pdimy = $custom['pdimension_y'][0];
+			$dims = array($dimx, $dimy, $pdimx, $pdimy);
+			$format = '%1$d mm  x %2$d mm <br />
+				(%3$d mm  x %4$d mm) <br />';
+			echo vsprintf($format, $dims);
+			echo $mediums;
+			?></p><?php
+			the_content(); ?>
+			
 			<?php
 			  /**
 			  the meta
 			  */
-			?>
-	 		<?php wp_link_pages( array(
+			  wp_link_pages( array(
 	 				'before' => '<div class="page-links">' . __( 'Pages:', 'barry-portfolio' ),
 	 				'after'  => '</div>',
 	 			) );
@@ -25,23 +39,15 @@
 	  <?php
 	  if ( has_post_thumbnail() ) { ?>
 		 	<div class='post-image'>
-			   <?php $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'large');
-			      echo '<a href="' . $large_image_url[0] . '" rel="lightbox" title="' . the_title_attribute('echo=0') . '" >';
+			   <?php 
 			      the_post_thumbnail('frontpage');
-			      echo '</a>';?>
+				  ?>
 			</div>
 	  <?php }
 	  else {
 	  	echo '<img src="' . get_bloginfo( 'stylesheet_directory' ) . '/images/thumbnail-default.jpg" />';
 	  }
 	  ?>
-	<div class="other-images">
-		<?php 
-		$imgs = get_cuurent_post_meta('work_attached_media');
-		$gallery_shortcode = '[gallery include="' . $imgs . '"]';
-		    print apply_filters( 'the_content', $gallery_shortcode );
-		?>
-	</div>
 	
 
 	<footer class="entry-footer">
