@@ -1,6 +1,6 @@
 /*!
 Theme Name: Portfolio
-Theme URI: http://madeso.esy.es/themes/porfolio
+Theme URI: http://madeso.uk
 Author: Made so.
 Author URI: http://made-so.tumblr.com
 Description: A simple wordpress portfolio theme. Great for Artist
@@ -23,7 +23,7 @@ and Blueprint http://www.blueprintcss.org/
 */
 /* =Reset
 -------------------------------------------------------------- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_reset\.scss}line{font-family:\000034}}
+/* line 4, sass/_reset.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -43,7 +43,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
   vertical-align: baseline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_reset\.scss}line{font-family:\0000322}}
+/* line 22, sass/_reset.scss */
 html {
   font-size: 62.5%;
   /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
@@ -55,7 +55,7 @@ html {
   /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_reset\.scss}line{font-family:\0000328}}
+/* line 28, sass/_reset.scss */
 *,
 *:before,
 *:after {
@@ -65,12 +65,12 @@ html {
   box-sizing: border-box;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_reset\.scss}line{font-family:\0000335}}
+/* line 35, sass/_reset.scss */
 body {
   background: #fff;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_reset\.scss}line{font-family:\0000338}}
+/* line 38, sass/_reset.scss */
 article,
 aside,
 details,
@@ -84,52 +84,52 @@ section {
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_reset\.scss}line{font-family:\0000350}}
+/* line 50, sass/_reset.scss */
 ol, ul {
   list-style: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_reset\.scss}line{font-family:\0000353}}
+/* line 53, sass/_reset.scss */
 table {
   /* tables still need 'cellspacing="0"' in the markup */
   border-collapse: separate;
   border-spacing: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_reset\.scss}line{font-family:\0000357}}
+/* line 57, sass/_reset.scss */
 caption, th, td {
   font-weight: normal;
   text-align: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_reset\.scss}line{font-family:\0000361}}
+/* line 61, sass/_reset.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: "";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_reset\.scss}line{font-family:\0000365}}
+/* line 65, sass/_reset.scss */
 blockquote, q {
   quotes: "" "";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_reset\.scss}line{font-family:\0000368}}
+/* line 68, sass/_reset.scss */
 a:focus {
   outline: thin dotted;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_reset\.scss}line{font-family:\0000371}}
+/* line 71, sass/_reset.scss */
 a:hover,
 a:active {
   outline: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_reset\.scss}line{font-family:\0000375}}
+/* line 75, sass/_reset.scss */
 a img {
   border: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_mixins\.scss}line{font-family:\000032}}
+/* line 2, sass/_mixins.scss */
 .clear:before,
 .entry-content:before,
 .comment-content:before,
@@ -144,7 +144,7 @@ a img {
   content: "";
   display: table;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_mixins\.scss}line{font-family:\000036}}
+/* line 6, sass/_mixins.scss */
 .clear:after,
 .entry-content:after,
 .comment-content:after,
@@ -157,21 +157,21 @@ a img {
 /* =Global
 ----------------------------------------------- */
 /* Alignment */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_global\.scss}line{font-family:\000035}}
+/* line 5, sass/_global.scss */
 .alignleft {
   display: inline;
   float: left;
   margin-right: 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_global\.scss}line{font-family:\0000310}}
+/* line 10, sass/_global.scss */
 .alignright {
   display: inline;
   float: right;
   margin-left: 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_global\.scss}line{font-family:\0000315}}
+/* line 15, sass/_global.scss */
 .aligncenter {
   clear: both;
   display: block;
@@ -179,7 +179,7 @@ a img {
 }
 
 /* Text meant only for screen readers */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_global\.scss}line{font-family:\0000322}}
+/* line 22, sass/_global.scss */
 .screen-reader-text {
   clip: rect(1px 1px 1px 1px);
   /* IE6, IE7 */
@@ -187,7 +187,7 @@ a img {
   position: absolute !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_global\.scss}line{font-family:\0000328}}
+/* line 28, sass/_global.scss */
 .screen-reader-text:hover,
 .screen-reader-text:active,
 .screen-reader-text:focus {
@@ -217,18 +217,18 @@ a img {
 13.0 Layout - Mobile / desktop
 */
 /* Page Elements */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_global\.scss}line{font-family:\0000368}}
+/* line 68, sass/_global.scss */
 #page {
   width: 960px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_global\.scss}line{font-family:\0000371}}
+/* line 71, sass/_global.scss */
 #containers {
   width: 100%;
   background-color: gold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_global\.scss}line{font-family:\0000375}}
+/* line 75, sass/_global.scss */
 section#primary {
   min-width: 480px;
   max-width: 720px;
@@ -237,25 +237,25 @@ section#primary {
 }
 
 /* Header */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_global\.scss}line{font-family:\0000383}}
+/* line 83, sass/_global.scss */
 header#masthead {
   height: 150px;
   padding: 20px 0 0 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_global\.scss}line{font-family:\0000387}}
+/* line 87, sass/_global.scss */
 header nav .menu {
   padding-top: 4.3em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_global\.scss}line{font-family:\0000390}}
+/* line 90, sass/_global.scss */
 .site-branding {
   width: 200px;
   float: left;
 }
 
 /* Site navigation */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_global\.scss}line{font-family:\0000395}}
+/* line 95, sass/_global.scss */
 nav#site-navigation {
   min-width: 480px;
   max-width: 720px;
@@ -264,38 +264,38 @@ nav#site-navigation {
   padding-right: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_global\.scss}line{font-family:\00003102}}
+/* line 102, sass/_global.scss */
 nav.post-navigation {
   clear: both;
 }
 
 /* Posts */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_global\.scss}line{font-family:\00003107}}
+/* line 107, sass/_global.scss */
 article.post {
   float: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_global\.scss}line{font-family:\00003111}}
+/* line 111, sass/_global.scss */
 body.page article, body.single-post article {
   /*full page post content article tag*/
   width: 720px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_global\.scss}line{font-family:\00003116}}
+/* line 116, sass/_global.scss */
 body.single header.entry-header {
   position: absolute;
   width: 220px;
   left: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_global\.scss}line{font-family:\00003121}}
+/* line 121, sass/_global.scss */
 h3.entry-title, div#full-post-meta p {
   text-align: right;
   width: 220px;
 }
 
 /* Sidebars */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_global\.scss}line{font-family:\00003128}}
+/* line 128, sass/_global.scss */
 #secondary {
   float: left;
   width: 220px;
@@ -303,39 +303,39 @@ h3.entry-title, div#full-post-meta p {
 }
 
 /* Footer */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_global\.scss}line{font-family:\00003135}}
+/* line 135, sass/_global.scss */
 footer.site-footer {
   margin: 20px;
   padding: 10px 0px;
   border-top: 1px solid #D6D6D6;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_global\.scss}line{font-family:\00003140}}
+/* line 140, sass/_global.scss */
 footer .site-info {
   margin: 10px auto auto 220px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\000031}}
+/* line 1, sass/_typography.scss */
 body,
 button,
 input,
 select,
 textarea {
   color: #404040;
-  font-family: "Gill Sans", Arial;
+  font-family: "Gill Sans";
   font-size: 16px;
   font-size: 1.6rem;
   line-height: 1.5;
 }
 
 /* Headings */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000315}}
+/* line 15, sass/_typography.scss */
 h1.site-title {
   word-spacing: 960px;
   line-height: 1.3em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000322}}
+/* line 22, sass/_typography.scss */
 header .current-menu-item a {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -345,7 +345,7 @@ header .current-menu-item a {
   padding: 0 5px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000330}}
+/* line 30, sass/_typography.scss */
 li.current-cat a {
   border-radius: 3px;
   margin-left: -5px;
@@ -354,29 +354,29 @@ li.current-cat a {
   padding: 0 5px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000338}}
+/* line 38, sass/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Gill Sans", Arial;
+  font-family: "Gill Sans";
   color: #747474;
   clear: both;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000343}}
+/* line 43, sass/_typography.scss */
 h1 {
   font-size: 2.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000346}}
+/* line 46, sass/_typography.scss */
 h2 {
   font-size: 2em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000349}}
+/* line 49, sass/_typography.scss */
 h3 {
   font-size: 1.2em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000353}}
+/* line 53, sass/_typography.scss */
 hr {
   background-color: #ccc;
   border: 0;
@@ -385,7 +385,7 @@ hr {
 }
 
 /* Text elements */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000361}}
+/* line 61, sass/_typography.scss */
 p {
   margin-bottom: 1.5em;
   font-size: 0.8em;
@@ -393,59 +393,59 @@ p {
   color: #A8A9A9;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000367}}
+/* line 67, sass/_typography.scss */
 ul, ol {
   margin: 0 0 1.5em 3em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000370}}
+/* line 70, sass/_typography.scss */
 ul {
   list-style: disc;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000373}}
+/* line 73, sass/_typography.scss */
 ol {
   list-style: decimal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000376}}
+/* line 76, sass/_typography.scss */
 li > ul,
 li > ol {
   margin-bottom: 0;
   margin-left: 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000381}}
+/* line 81, sass/_typography.scss */
 dt {
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000384}}
+/* line 84, sass/_typography.scss */
 dd {
   margin: 0 1.5em 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000387}}
+/* line 87, sass/_typography.scss */
 b, strong {
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000390}}
+/* line 90, sass/_typography.scss */
 dfn, cite, em, i {
   font-style: italic;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000393}}
+/* line 93, sass/_typography.scss */
 blockquote {
   margin: 0 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000396}}
+/* line 96, sass/_typography.scss */
 address {
   margin: 0 0 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\0000399}}
+/* line 99, sass/_typography.scss */
 pre {
   background: #eee;
   font-family: "Courier 10 Pitch", Courier, monospace;
@@ -458,24 +458,24 @@ pre {
   max-width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003110}}
+/* line 110, sass/_typography.scss */
 code, kbd, tt, var {
   font: 15px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003113}}
+/* line 113, sass/_typography.scss */
 abbr, acronym {
   border-bottom: 1px dotted #666;
   cursor: help;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003117}}
+/* line 117, sass/_typography.scss */
 mark, ins {
   background: #fff9c0;
   text-decoration: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003121}}
+/* line 121, sass/_typography.scss */
 sup,
 sub {
   font-size: 75%;
@@ -485,43 +485,43 @@ sub {
   vertical-align: baseline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003129}}
+/* line 129, sass/_typography.scss */
 sup {
   bottom: 1ex;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003132}}
+/* line 132, sass/_typography.scss */
 sub {
   top: .5ex;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003135}}
+/* line 135, sass/_typography.scss */
 small {
   font-size: 75%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003138}}
+/* line 138, sass/_typography.scss */
 big {
   font-size: 125%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003141}}
+/* line 141, sass/_typography.scss */
 figure {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003144}}
+/* line 144, sass/_typography.scss */
 table {
   margin: 0 0 1.5em;
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003148}}
+/* line 148, sass/_typography.scss */
 th {
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003151}}
+/* line 151, sass/_typography.scss */
 img {
   height: auto;
   /* Make sure images are scaled correctly. */
@@ -530,23 +530,23 @@ img {
 }
 
 /* Links */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003157}}
+/* line 157, sass/_typography.scss */
 a {
   color: #747474;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_mixins\.scss}line{font-family:\0000312}}
+/* line 12, sass/_mixins.scss */
 a:hover, a:active, a:focus {
   color: #282828;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003164}}
+/* line 164, sass/_typography.scss */
 a:visited {
   text-decoration: none;
   color: #747474;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003168}}
+/* line 168, sass/_typography.scss */
 a:hover,
 a:focus,
 a:active {
@@ -554,13 +554,13 @@ a:active {
 }
 
 /*  footer fonts  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003175}}
+/* line 175, sass/_typography.scss */
 footer .site-info {
   font: 9.8px courier;
   color: #D6D6D6;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_typography\.scss}line{font-family:\00003179}}
+/* line 179, sass/_typography.scss */
 footer .site-info a:link,
 footer .site-info a:visited,
 footer .site-info a:hover,
@@ -569,7 +569,7 @@ footer .site-info a:active {
   font-weight: 550;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_forms\.scss}line{font-family:\000031}}
+/* line 1, sass/_forms.scss */
 button,
 input,
 select,
@@ -584,7 +584,7 @@ textarea {
   /* Improves appearance and consistency in all browsers */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_forms\.scss}line{font-family:\0000310}}
+/* line 10, sass/_forms.scss */
 button,
 input[type="button"],
 input[type="reset"],
@@ -606,7 +606,7 @@ input[type="submit"] {
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_forms\.scss}line{font-family:\0000328}}
+/* line 28, sass/_forms.scss */
 button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
@@ -615,7 +615,7 @@ input[type="submit"]:hover {
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_forms\.scss}line{font-family:\0000335}}
+/* line 35, sass/_forms.scss */
 button:focus,
 input[type="button"]:focus,
 input[type="reset"]:focus,
@@ -628,14 +628,14 @@ input[type="submit"]:active {
   box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_forms\.scss}line{font-family:\0000346}}
+/* line 46, sass/_forms.scss */
 input[type="checkbox"],
 input[type="radio"] {
   padding: 0;
   /* Addresses excess padding in IE8/9 */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_forms\.scss}line{font-family:\0000350}}
+/* line 50, sass/_forms.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* Addresses appearance set to searchfield in S5, Chrome */
@@ -645,13 +645,13 @@ input[type="search"] {
   box-sizing: content-box;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_forms\.scss}line{font-family:\0000356}}
+/* line 56, sass/_forms.scss */
 input[type="search"]::-webkit-search-decoration {
   /* Corrects inner padding displayed oddly in S5, Chrome on OSX */
   -webkit-appearance: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_forms\.scss}line{font-family:\0000359}}
+/* line 59, sass/_forms.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   /* Corrects inner padding and border displayed oddly in FF3/4 www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/ */
@@ -659,7 +659,7 @@ input::-moz-focus-inner {
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_forms\.scss}line{font-family:\0000364}}
+/* line 64, sass/_forms.scss */
 input[type="text"],
 input[type="email"],
 input[type="url"],
@@ -671,7 +671,7 @@ textarea {
   border-radius: 3px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_forms\.scss}line{font-family:\0000374}}
+/* line 74, sass/_forms.scss */
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="url"]:focus,
@@ -681,7 +681,7 @@ textarea:focus {
   color: #111;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_forms\.scss}line{font-family:\0000382}}
+/* line 82, sass/_forms.scss */
 input[type="text"],
 input[type="email"],
 input[type="url"],
@@ -690,7 +690,7 @@ input[type="search"] {
   padding: 3px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_forms\.scss}line{font-family:\0000389}}
+/* line 89, sass/_forms.scss */
 textarea {
   overflow: auto;
   /* Removes default vertical scrollbar in IE6/7/8/9 */
@@ -702,35 +702,35 @@ textarea {
 
 /* =Menu
 ----------------------------------------------- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_menu\.scss}line{font-family:\000034}}
+/* line 4, sass/_menu.scss */
 .main-navigation {
   clear: both;
   display: block;
   float: left;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_menu\.scss}line{font-family:\0000311}}
+/* line 11, sass/_menu.scss */
 .main-navigation ul {
   list-style: none;
   margin: 0;
   padding-left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_menu\.scss}line{font-family:\0000316}}
+/* line 16, sass/_menu.scss */
 .main-navigation ul li {
   float: left;
   position: relative;
   padding-left: 1.2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_menu\.scss}line{font-family:\0000321}}
+/* line 21, sass/_menu.scss */
 .main-navigation ul li a {
   display: block;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_menu\.scss}line{font-family:\0000329}}
+/* line 29, sass/_menu.scss */
 .main-navigation ul li:hover > ul {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_menu\.scss}line{font-family:\0000339}}
+/* line 39, sass/_menu.scss */
 .main-navigation ul ul {
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   display: none;
@@ -740,36 +740,36 @@ textarea {
   left: 0;
   z-index: 99999;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_menu\.scss}line{font-family:\0000353}}
+/* line 53, sass/_menu.scss */
 .main-navigation ul ul li a {
   width: 200px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_menu\.scss}line{font-family:\0000360}}
+/* line 60, sass/_menu.scss */
 .main-navigation ul ul ul {
   left: 100%;
   top: 0;
 }
 
 /* Small menu */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_menu\.scss}line{font-family:\0000371}}
+/* line 71, sass/_menu.scss */
 .menu-toggle {
   display: none;
   cursor: pointer;
 }
 
 @media screen and (max-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_menu\.scss}line{font-family:\0000377}}
+  /* line 77, sass/_menu.scss */
   .menu-toggle,
   .main-navigation.toggled .nav-menu {
     display: block;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_menu\.scss}line{font-family:\0000382}}
+  /* line 82, sass/_menu.scss */
   .main-navigation ul {
     display: none;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_menu\.scss}line{font-family:\0000388}}
+/* line 88, sass/_menu.scss */
 nav#site-navigation {
   clear: none;
   border-bottom: 1px solid #D6D6D6;
@@ -777,31 +777,31 @@ nav#site-navigation {
 
 /* =Content
 ----------------------------------------------- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_content\.scss}line{font-family:\000039}}
+/* line 9, sass/_content.scss */
 .byline,
 .updated {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_content\.scss}line{font-family:\0000314}}
+/* line 14, sass/_content.scss */
 .single .byline, .group-blog .byline {
   display: inline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_content\.scss}line{font-family:\0000318}}
+/* line 18, sass/_content.scss */
 .page-content,
 .entry-content,
 .entry-summary {
   margin: 1.5em 0 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_content\.scss}line{font-family:\0000323}}
+/* line 23, sass/_content.scss */
 .page-links {
   clear: both;
   margin: 0 0 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_content\.scss}line{font-family:\0000328}}
+/* line 28, sass/_content.scss */
 .work-cat-img {
   width: 200px;
   height: 200px;
@@ -810,26 +810,26 @@ nav#site-navigation {
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_content\.scss}line{font-family:\0000335}}
+/* line 35, sass/_content.scss */
 .work-cat-img img {
   vertical-align: middle;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_content\.scss}line{font-family:\0000338}}
+/* line 38, sass/_content.scss */
 .work-cat-img a {
   line-height: 200px;
 }
 
 /* =Asides
 ----------------------------------------------- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_postformats\.scss}line{font-family:\000035}}
+/* line 5, sass/_postformats.scss */
 .blog .format-aside .entry-title, .archive .format-aside .entry-title {
   display: none;
 }
 
 /* =Media
 ----------------------------------------------- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_media\.scss}line{font-family:\000037}}
+/* line 7, sass/_media.scss */
 .page-content img.wp-smiley,
 .entry-content img.wp-smiley,
 .comment-content img.wp-smiley {
@@ -839,43 +839,43 @@ nav#site-navigation {
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_media\.scss}line{font-family:\0000315}}
+/* line 15, sass/_media.scss */
 .wp-caption {
   border: 1px solid #ccc;
   margin-bottom: 1.5em;
   max-width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_media\.scss}line{font-family:\0000320}}
+/* line 20, sass/_media.scss */
 .wp-caption img[class*="wp-image-"] {
   display: block;
   margin: 1.2% auto 0;
   max-width: 98%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_media\.scss}line{font-family:\0000325}}
+/* line 25, sass/_media.scss */
 .wp-caption .wp-caption-text {
   text-align: center;
   margin: 0.8075em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_media\.scss}line{font-family:\0000332}}
+/* line 32, sass/_media.scss */
 .gallery {
   margin-bottom: 1.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_media\.scss}line{font-family:\0000338}}
+/* line 38, sass/_media.scss */
 .gallery .gallery-item {
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_media\.scss}line{font-family:\0000342}}
+/* line 42, sass/_media.scss */
 .gallery .gallery-item .gallery-icon a {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_media\.scss}line{font-family:\0000344}}
+/* line 44, sass/_media.scss */
 .gallery .gallery-item .gallery-icon img {
   border: none;
   height: auto;
   margin-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_media\.scss}line{font-family:\0000351}}
+/* line 51, sass/_media.scss */
 .gallery .gallery-item .gallery-caption {
   margin: 0;
   text-align: center;
@@ -886,104 +886,104 @@ nav#site-navigation {
    by adding the following to your functions.php
    add_filter( 'use_default_gallery_style', '__return_false' );
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_media\.scss}line{font-family:\0000361}}
+/* line 61, sass/_media.scss */
 .gallery-columns-2 .gallery-item {
   width: 49%;
   margin-right: 2;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_media\.scss}line{font-family:\0000365}}
+/* line 65, sass/_media.scss */
 .gallery-columns-2 .gallery-item:nth-of-type(2n - 2) {
   margin-right: 0;
   clear: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_media\.scss}line{font-family:\0000361}}
+/* line 61, sass/_media.scss */
 .gallery-columns-3 .gallery-item {
   width: 32%;
   margin-right: 2;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_media\.scss}line{font-family:\0000365}}
+/* line 65, sass/_media.scss */
 .gallery-columns-3 .gallery-item:nth-of-type(3n - 3) {
   margin-right: 0;
   clear: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_media\.scss}line{font-family:\0000361}}
+/* line 61, sass/_media.scss */
 .gallery-columns-4 .gallery-item {
   width: 23.5%;
   margin-right: 2;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_media\.scss}line{font-family:\0000365}}
+/* line 65, sass/_media.scss */
 .gallery-columns-4 .gallery-item:nth-of-type(4n - 4) {
   margin-right: 0;
   clear: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_media\.scss}line{font-family:\0000361}}
+/* line 61, sass/_media.scss */
 .gallery-columns-5 .gallery-item {
   width: 18.4%;
   margin-right: 2;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_media\.scss}line{font-family:\0000365}}
+/* line 65, sass/_media.scss */
 .gallery-columns-5 .gallery-item:nth-of-type(5n - 5) {
   margin-right: 0;
   clear: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_media\.scss}line{font-family:\0000361}}
+/* line 61, sass/_media.scss */
 .gallery-columns-6 .gallery-item {
   width: 15%;
   margin-right: 2;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_media\.scss}line{font-family:\0000365}}
+/* line 65, sass/_media.scss */
 .gallery-columns-6 .gallery-item:nth-of-type(6n - 6) {
   margin-right: 0;
   clear: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_media\.scss}line{font-family:\0000361}}
+/* line 61, sass/_media.scss */
 .gallery-columns-7 .gallery-item {
   width: 12.57143%;
   margin-right: 2;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_media\.scss}line{font-family:\0000365}}
+/* line 65, sass/_media.scss */
 .gallery-columns-7 .gallery-item:nth-of-type(7n - 7) {
   margin-right: 0;
   clear: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_media\.scss}line{font-family:\0000361}}
+/* line 61, sass/_media.scss */
 .gallery-columns-8 .gallery-item {
   width: 10.75%;
   margin-right: 2;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_media\.scss}line{font-family:\0000365}}
+/* line 65, sass/_media.scss */
 .gallery-columns-8 .gallery-item:nth-of-type(8n - 8) {
   margin-right: 0;
   clear: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_media\.scss}line{font-family:\0000361}}
+/* line 61, sass/_media.scss */
 .gallery-columns-9 .gallery-item {
   width: 9.33333%;
   margin-right: 2;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_media\.scss}line{font-family:\0000365}}
+/* line 65, sass/_media.scss */
 .gallery-columns-9 .gallery-item:nth-of-type(9n - 9) {
   margin-right: 0;
   clear: right;
 }
 
 /* Make sure embeds and iframes fit their containers */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_media\.scss}line{font-family:\0000383}}
+/* line 83, sass/_media.scss */
 embed,
 iframe,
 object {
@@ -992,48 +992,48 @@ object {
 
 /* =Navigation
 ----------------------------------------------- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_navigation\.scss}line{font-family:\000034}}
+/* line 4, sass/_navigation.scss */
 .site-main [class*="navigation"] {
   margin: 0 0 1.5em;
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_navigation\.scss}line{font-family:\000038}}
+/* line 8, sass/_navigation.scss */
 .site-main [class*="navigation"] .nav-previous {
   float: left;
   width: 50%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_navigation\.scss}line{font-family:\0000313}}
+/* line 13, sass/_navigation.scss */
 .site-main [class*="navigation"] .nav-next {
   float: right;
   text-align: right;
   width: 50%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_navigation\.scss}line{font-family:\0000321}}
+/* line 21, sass/_navigation.scss */
 div#worksbyyear ul {
   list-style-type: none;
 }
 
 /* =Comments
 ----------------------------------------------- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_comments\.scss}line{font-family:\000033}}
+/* line 3, sass/_comments.scss */
 .comment-content a {
   word-wrap: break-word;
 }
 
 /* =Widgets
 ----------------------------------------------- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_widgets\.scss}line{font-family:\000034}}
+/* line 4, sass/_widgets.scss */
 .widget {
   margin: 0 0 1.5em;
   /* Make sure select elements fit in widgets */
   /* Search widget */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_widgets\.scss}line{font-family:\000038}}
+/* line 8, sass/_widgets.scss */
 .widget select {
   max-width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_widgets\.scss}line{font-family:\0000313}}
+/* line 13, sass/_widgets.scss */
 .widget .widget-search .search-submit {
   display: none;
 }
@@ -1041,7 +1041,7 @@ div#worksbyyear ul {
 /* =Infinite Scroll
 ----------------------------------------------- */
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_infinitescroll\.scss}line{font-family:\000035}}
+/* line 5, sass/_infinitescroll.scss */
 .infinite-scroll .paging-navigation,
 .infinite-scroll.neverending .site-footer {
   /* Theme Footer (when set to scrolling) */
@@ -1049,7 +1049,7 @@ div#worksbyyear ul {
 }
 
 /* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/LVSC\/Completed\%20projects\/Barry\%20Thompson\/theme\/barry-portfolio\/sass\/_infinitescroll\.scss}line{font-family:\0000311}}
+/* line 11, sass/_infinitescroll.scss */
 .infinity-end.neverending .site-footer {
   display: block;
 }
