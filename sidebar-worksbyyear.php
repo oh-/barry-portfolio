@@ -12,7 +12,7 @@
 	  $args = array(
 	 	'show_option_all'	=> '',
 	 	'orderby'			=> 'name',
-	 	'order'				=> 'ASC',
+	 	'order'				=> 'DESC',
 	 	'style'				=> 'list',
 		'hide_empty'		=> '1',
 		'hierarchical'		=> '0',
