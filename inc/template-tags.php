@@ -52,8 +52,8 @@ function barry_portfolio_post_nav() {
 		<h1 class="screen-reader-text"><?php _e( 'Post navigation', 'barry-portfolio' ); ?></h1>
 		<div class="nav-links">
 			<?php
-				previous_post_link( '<div class="nav-previous">%link</div>', _x( '<span class="meta-nav">&larr;</span>', 'Previous post link', 'barry-portfolio' ) );
-				next_post_link(     '<div class="nav-next">%link</div>',     _x( '<span class="meta-nav">&rarr;</span>', 'Next post link',     'barry-portfolio' ) );
+				next_post_link( '<div class="nav-previous">%link</div>', _x( '<span class="meta-nav">&larr;</span>', 'Next post link', 'barry-portfolio' ) );
+				previous_post_link(     '<div class="nav-next">%link</div>',     _x( '<span class="meta-nav">&rarr;</span>', 'Previous post link',     'barry-portfolio' ) );
 			?>
 		</div><!-- .nav-links -->
 	</nav><!-- .navigation -->
