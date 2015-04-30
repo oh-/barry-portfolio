@@ -20,7 +20,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-	<?php include'inc/googletags.php'; ?>
+	<?php # include'inc/googletags.php'; ?>
 <div id="page" class="hfeed site">
 
 	<header id="masthead" class="site-header" role="banner">
